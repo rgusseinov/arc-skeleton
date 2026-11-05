@@ -58,16 +58,16 @@
         },
         {
             "name": "rgusseinov/arc-php-framework",
-            "version": "v0.1.0",
+            "version": "v0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rgusseinov/arc-php-framework.git",
-                "reference": "f7c1e5abd6f8bd3c03c01b017b695af6216af430"
+                "reference": "a62c72194f26e70d86151c0060d1def14529a289"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rgusseinov/arc-php-framework/zipball/f7c1e5abd6f8bd3c03c01b017b695af6216af430",
-                "reference": "f7c1e5abd6f8bd3c03c01b017b695af6216af430",
+                "url": "https://api.github.com/repos/rgusseinov/arc-php-framework/zipball/a62c72194f26e70d86151c0060d1def14529a289",
+                "reference": "a62c72194f26e70d86151c0060d1def14529a289",
                 "shasum": ""
             },
             "require": {
@@ -101,9 +101,9 @@
             "description": "Arc: a lightweight PHP framework",
             "support": {
                 "issues": "https://github.com/rgusseinov/arc-php-framework/issues",
-                "source": "https://github.com/rgusseinov/arc-php-framework/tree/v0.1.0"
+                "source": "https://github.com/rgusseinov/arc-php-framework/tree/v0.1.1"
             },
-            "time": "2026-11-04T18:53:14+00:00"
+            "time": "2026-11-05T19:10:51+00:00"
         }
     ],
     "packages-dev": [],
