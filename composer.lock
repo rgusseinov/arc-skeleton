@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "37c58e8aa914f3950f53c79aef7ecdf3",
+    "content-hash": "32e679114b66c0dc08658e8912411251",
     "packages": [
         {
             "name": "psr/log",
@@ -58,11 +58,17 @@
         },
         {
             "name": "rgusseinov/arc-php-framework",
-            "version": "dev-main",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rgusseinov/arc-php-framework.git",
+                "reference": "f7c1e5abd6f8bd3c03c01b017b695af6216af430"
+            },
             "dist": {
-                "type": "path",
-                "url": "/var/www/html/arc-php-framework",
-                "reference": "c3620cde51083fc7f58602aeddbeb0e82cfb8240"
+                "type": "zip",
+                "url": "https://api.github.com/repos/rgusseinov/arc-php-framework/zipball/f7c1e5abd6f8bd3c03c01b017b695af6216af430",
+                "reference": "f7c1e5abd6f8bd3c03c01b017b695af6216af430",
+                "shasum": ""
             },
             "require": {
                 "php": "^8.1",
@@ -75,29 +81,14 @@
             },
             "type": "library",
             "autoload": {
+                "files": [
+                    "src/Helpers/helpers.php"
+                ],
                 "psr-4": {
                     "Arc\\Framework\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "Tests\\": "tests/"
-                }
-            },
-            "scripts": {
-                "test": [
-                    "vendor/bin/phpunit"
-                ],
-                "analyse": [
-                    "vendor/bin/phpstan analyse"
-                ],
-                "cs": [
-                    "vendor/bin/php-cs-fixer fix --dry-run --diff"
-                ],
-                "cs:fix": [
-                    "vendor/bin/php-cs-fixer fix"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -107,19 +98,18 @@
                     "email": "r.gusseinov@mail.ru"
                 }
             ],
-            "description": "Mini php framework",
-            "transport-options": {
-                "symlink": true,
-                "relative": false
-            }
+            "description": "Arc: a lightweight PHP framework",
+            "support": {
+                "issues": "https://github.com/rgusseinov/arc-php-framework/issues",
+                "source": "https://github.com/rgusseinov/arc-php-framework/tree/v0.1.0"
+            },
+            "time": "2026-11-04T18:53:14+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "dev",
-    "stability-flags": {
-        "rgusseinov/arc-php-framework": 20
-    },
+    "minimum-stability": "stable",
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

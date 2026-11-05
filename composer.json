@@ -3,22 +3,15 @@
     "description": "Application skeleton for the Arc framework",
     "type": "project",
     "license": "MIT",
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true,
     "require": {
         "php": "^8.1",
-        "rgusseinov/arc-php-framework": "@dev"
+        "rgusseinov/arc-php-framework": "^0.1"
     },
     "autoload": {
         "psr-4": {
             "App\\": "app/"
         }
-    },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "/var/www/html/arc-php-framework",
-            "options": { "symlink": true }
-        }
-    ]
+    }
 }
