@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "32e679114b66c0dc08658e8912411251",
+    "content-hash": "115490666ab5b4edc740dd8e96c02af7",
     "packages": [
         {
             "name": "psr/log",
@@ -58,16 +58,16 @@
         },
         {
             "name": "rgusseinov/arc-php-framework",
-            "version": "v0.1.2",
+            "version": "v0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rgusseinov/arc-php-framework.git",
-                "reference": "bb171f1cd6168941b642626c708c5cf4133b606b"
+                "reference": "e9f7bc70793085c9f2da989274b1395d3469b697"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rgusseinov/arc-php-framework/zipball/bb171f1cd6168941b642626c708c5cf4133b606b",
-                "reference": "bb171f1cd6168941b642626c708c5cf4133b606b",
+                "url": "https://api.github.com/repos/rgusseinov/arc-php-framework/zipball/e9f7bc70793085c9f2da989274b1395d3469b697",
+                "reference": "e9f7bc70793085c9f2da989274b1395d3469b697",
                 "shasum": ""
             },
             "require": {
@@ -101,9 +101,9 @@
             "description": "Arc: a lightweight PHP framework",
             "support": {
                 "issues": "https://github.com/rgusseinov/arc-php-framework/issues",
-                "source": "https://github.com/rgusseinov/arc-php-framework/tree/v0.1.2"
+                "source": "https://github.com/rgusseinov/arc-php-framework/tree/v0.2.0"
             },
-            "time": "2026-11-05T19:16:02+00:00"
+            "time": "2026-11-18T16:57:44+00:00"
         }
     ],
     "packages-dev": [],

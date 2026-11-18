@@ -7,7 +7,7 @@
     "prefer-stable": true,
     "require": {
         "php": "^8.1",
-        "rgusseinov/arc-php-framework": "^0.1"
+        "rgusseinov/arc-php-framework": "^0.2"
     },
     "autoload": {
         "psr-4": {
