@@ -25,7 +25,7 @@ foreach ($commands as $command){
 }
 
 if ($helpCommand instanceof HelpCommand){
-	$helpCommand->setCommands($console::getCommands());
+	$helpCommand->setCommands($console->getCommands());
 }
 
 return $console;
